@@ -16,7 +16,8 @@ Recriação do aplicativo deep-web-url-aleatoria, inicialmente feito em Python (
 
 Se no programa ter URLs "ilegais" ou conteúdo impróprio, como pornografia e gore, avise-me se possível.
 
-Obs.1: atualmente o executável só está disponível para Linux.
+*Obs.1: atualmente o executável só está disponível para Linux.*
+
 ---
 
 ## :rocket: Tecnologias utilizadas
@@ -31,10 +32,10 @@ Obs.1: atualmente o executável só está disponível para Linux.
 
 ```php
   // Clonar o repositório
-  $ git clone https://github.com/jjoaovitor7/deep-web-url-aleatoria
+  $ git clone https://github.com/jjoaovitor7/dw-url-aleatoria
 
   // Entrar no diretório
-  $ cd deep-web-url-aleatoria
+  $ cd dw-url-aleatoria
   $ cd deep-web-url-aleatoria-linux-x64
 
   // Executar o programa
