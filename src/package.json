@@ -1,0 +1,18 @@
+{
+  "name": "deep-web-url-aleatoria",
+  "version": "1.0.0",
+  "description": "URL aleatória da deep web.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "jjoaovitor7",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}

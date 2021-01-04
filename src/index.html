@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Deep Web URL Aleatória</title>
+
+    <style>
+      body#page-home {
+        background-color: #000;
+      }
+
+      body#page-home header h1 {
+        color: #20c20e;
+        text-align: center;
+        font-family: "Goldman", cursive;
+      }
+
+      body#page-home p {
+        color: #20c20e;
+        text-align: center;
+        font-family: "Goldman", cursive;
+        font-size: 20px;
+      }
+
+      body#page-home button {
+        background-color: #20c20e;
+        border: none;
+        color: #000;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 100px;
+        outline: none;
+        opacity: 0.8;
+        cursor: pointer;
+      }
+
+      body#page-home button:hover {
+        opacity: 1;
+      }
+
+      body#page-home div#btn-getURL {
+        text-align: center;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 25px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #20c20e;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #42df31;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 8px;
+        right: 25px;
+        font-size: 35px;
+        margin-left: 50px;
+        color: #20c20e;
+      }
+    </style>
+  </head>
+
+  <body id="page-home">
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="./pages/networks.html">Redes</a>
+        <br />
+        <br />
+        <a href="./pages/urls.html">URLs</a>
+      </div>
+
+      <span
+        style="font-size: 25px; cursor: pointer; color: #20c20e"
+        onclick="openNav()"
+        >&#9776;</span
+      >
+      <h1>Deep Web URL Aleatória</h1>
+    </header>
+
+    <p id="p-url">URL</p>
+
+    <div id="btn-getURL">
+      <button>Go!</button>
+    </div>
+
+    <script src="./urls.js"></script>
+    <script src="./scripts/randomURL.js"></script>
+    <script src="./scripts/sidenav.js"></script>
+  </body>
+</html>
