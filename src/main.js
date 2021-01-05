@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require("electron");
+const path = require('path');
 
 // criando a janela e carregando o arquivo index.html
 function createWindow() {
@@ -8,6 +9,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    icon: path.join(__dirname, "/public/assets/icon-32x32.png"),
   });
 
   win.setMaximizable(false);

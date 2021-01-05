@@ -1,5 +1,9 @@
 const urls = [
   {
+    site_name: "BBC News",
+    url: "bbcnewsv2vjtpsuy.onion",
+  },
+  {
     site_name: "Bible4u",
     url: "bible4u2kjgjvbxs.onion",
   },
